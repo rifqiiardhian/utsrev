@@ -1,0 +1,144 @@
+/* ---------------------------------------
+    Copyright 2020
+    Created and Designed by Rifqi Ardhian
+    Authentic Design
+    User Interface Mid Test
+--------------------------------------- */
+
+.title {
+    text-align: left;
+    top: 50%;
+    color: #c9c916;
+    font-size: 55px;
+}
+.subtitle {
+    text-align: left;
+    color: #636343;
+    font-size: 20px;
+}
+.category-item {
+    color: grey !important;
+}
+.category-item-active {
+    border-bottom: 2px solid grey;
+}
+.row-product {
+    padding: 50px;
+}
+.product-item {
+    transition: 0.3s;
+}
+.product-img {
+    padding: 20px;
+    background-color: #E6E6E6;
+}
+.img-product {
+    height: 250px;
+}
+.product-detail {
+    padding: 50px;
+}
+.btn-load-more {
+    padding: 15px 30px;
+    background-color: #141414;
+    border-radius: 0;
+    color: #E6E6E6; 
+    transition: 0.3s ease;
+}
+.btn-load-more:hover {
+    background-color: transparent;
+    color: #141414; 
+    border: 1px solid #141414;
+}
+.input-subscribe {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #b8b8b8;
+    background-color: transparent;
+}
+.btn-subscribe {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #b8b8b8;
+    background-color: transparent;
+}
+.btn-subscribe:hover {
+    background-color: #141414;
+}
+.footer-contact {
+    padding: 40px;
+    background-color: #E6E6E6;
+    color: white;
+}
+.logo-footer {
+    width: 200px;
+    padding-bottom: 10px;
+}
+.link-footer {
+    text-decoration: none;
+    color: grey;
+}
+@media only screen and (max-width: 500px) {
+    .title {
+        color: #c9c916;
+    }
+    .subtitle {
+        text-align: left;
+        color: #636343;
+        font-size: 3px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .title {
+        color: #c9c916;
+        font-size: 20px;
+    }
+    .subtitle {
+        text-align: left;
+        color: #636343;
+        font-size: 10px;
+    }
+    .product-img {
+        padding: 10px;
+        background-color: #E6E6E6;
+    }
+    .img-product {
+        max-height: 100px;
+    }
+    .product-detail {
+        padding: 15px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .title {
+        color: #c9c916;
+        font-size: 40px;
+    }
+    .subtitle {
+        text-align: left;
+        color: #636343;
+        font-size: 15px;
+    }
+    .product-img {
+        padding: 10px;
+        background-color: #E6E6E6;
+    }
+    .img-product {
+        height: 150px;
+    }
+    .product-detail {
+        padding: 20px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .product-img {
+        padding: 15px;
+        background-color: #E6E6E6;
+    }
+    .img-product {
+        height: 200px;
+    }
+    .product-detail {
+        padding: 30px;
+    }
+}
